@@ -34,7 +34,8 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.markdown("Otstarve: Hinnapakkumises kuvatavate tootetutvustustekstide personaliseerimine igale kliendigrupile; väljundtekst on kohandatud kliendi a) tegevusvaldkonnaga ja b) suurusega; sisendtekstiks on neutraalses vormis tootekirjeldus. \
-    \n\n Kasutusjuhend: 1) valmista ette tootekirjeldus (sisendtekst). 2) määra kliendisegemendid lähtuvalt tegevusvaldkonna ja suuruse kombinatsioonidest. 3) sisesta ükshaaval kliendisegmentide lõikes eeltoodud info äpi kasutajaliideses, saada ära. \
+    \n\n Kasutusjuhend: 
+    \n 1) valmista ette tootekirjeldus (sisendtekst). 2) määra kliendisegemendid lähtuvalt tegevusvaldkonna ja suuruse kombinatsioonidest. 3) sisesta ükshaaval kliendisegmentide lõikes eeltoodud info äpi kasutajaliideses, saada ära. \
     4) kopeeri ükshaaval kliendisegmentide lõikes äpi väljundteksti kõnealuse toote hinnapakkumisse.")
 
 with col2:
