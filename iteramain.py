@@ -8,16 +8,16 @@ template = """
  You are a sales executive with 10 years of experience. You are analyzing customer's background to write personalized product description that only this customer will receive; 
     PRODUCT input text: {content};
     CUSTOMER field of activity (y): {fieldofactivity};
-    CUSTOMER total turnover: {totalturnover};
+    CUSTOMER total turnover: {turnover};
     TASK: Write a product description that is tailored into this customer's Field of activity and total turnover. Use field of activity specific wording.;
     FORMAT: Present the result in the following order: (PRODUCT DESCRIPTION), (BENEFITS), (USE CASE);
     PRODUCT DESCRIPTION: describe the product in 5 sentences;
     BENEFITS: describe in 3 sentences why this product is perfect considering customers Field of activity and total turnover;
-    USE CASE: write a story in 5 sentences, of an example weekend activity taking into account field of activity {fieldofactivity} and total turnover {totalturnover}, write a story in the perspective of the company, example "For our company ...";
+    USE CASE: write a story in 5 sentences, of an example weekend activity taking into account field of activity {fieldofactivity} and total turnover {turnover}, write a story in the perspective of the company, example "For our company ...";
 """
 
 prompt = PromptTemplate(
-    input_variables=["fieldofactivity", "totalturnover", "content"],
+    input_variables=["fieldofactivity", "turnover", "content"],
     template=template,
 )
 
